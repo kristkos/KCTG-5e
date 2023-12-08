@@ -22,13 +22,17 @@
   "media": [
     {
       "type": "cover",
-      "location": "modules/kctg-5e/banner/Thumb.webp"
-      },
+      "loop": false,
+      "flags": {}
+    },
     {
-        "type": "setup",
-        "caption": "Kris's Compendium of Trade Goods",
-        "thumbnail": "modules/kctg-5e/banner/Thumb.webp"
-    }],
+      "type": "setup",
+      "caption": "Kris's Compendium of Trade Goods",
+      "thumbnail": "modules/kctg-5e/banner/Thumb.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
   "packs": [
     {
       "name": "kctg-dnd5e",
@@ -45,5 +49,5 @@
     }
   ],
   "download": "https://github.com/kristkos/KCTG-5e/releases/download/1.1.1b/kctg-5e.zip",
-  "manifest": "https://github.com/kristkos/KCTG-5e/blob/main/module.json"
+  "manifest": "https://raw.githubusercontent.com/kristkos/KCTG-5e/main/module.json"
 }
