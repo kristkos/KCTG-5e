@@ -2,7 +2,7 @@
   "id": "kctg-5e",
   "title": "Kris's Compendium of Trade Goods - DnD5e edition",
   "description": "<i>A comprehensive database of trade goods aimed at enhancing worldbuilding efforts by facilitating the distribution of resources and bringing depth to various regions, while also catering to political interests</i><br /><br /> *** Support me on <a href=\"https://patreon.com/KCTG\" title=\"PATREON\">Patreon</a> or join me on <a href=\"https://discord.gg/MYgCWdAc9c\" title=\"Discord\">Discord</a> ***<p></p>",
-  "version": "1.1.3",
+  "version": "1.2.0",
   "compatibility": {
     "minimum": "11",
     "verified": "11.315",
@@ -20,10 +20,6 @@
     }
   ],
   "media": [
-    {
-      "type": "cover",
-      "location": "modules/kctg-5e/banner/Thumb.webp"
-      },
     {
         "type": "setup",
         "caption": "Kris's Compendium of Trade Goods",
@@ -44,6 +40,6 @@
       "flags": {}
     }
   ],
-  "download": "https://github.com/kristkos/KCTG-5e/releases/download/1.1.3/kctg-5e.zip",
+  "download": "https://github.com/kristkos/KCTG-5e/releases/download/1.2.0/kctg-5e.zip",
   "manifest": "https://raw.githubusercontent.com/kristkos/KCTG-5e/main/module.json"
 }
