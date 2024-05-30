@@ -1,24 +1,8 @@
-2024/05/24-00:49:32.475 6c8 Recovering log #119
-2024/05/24-00:49:32.475 6c8 Level-0 table #121: started
-2024/05/24-00:49:32.484 6c8 Level-0 table #121: 79743 bytes OK
-2024/05/24-00:49:32.487 6c8 Delete type=0 #119
-2024/05/24-00:49:32.487 6c8 Delete type=3 #118
-2024/05/24-11:21:27.649 1b3c Level-0 table #124: started
-2024/05/24-11:21:27.652 1b3c Level-0 table #124: 36075 bytes OK
-2024/05/24-11:21:27.653 1b3c Delete type=0 #122
-2024/05/24-11:21:27.654 1b3c Manual compaction at level-0 from '!folders!9z8F4GiWlXBk1DYI' @ 72057594037927935 : 1 .. '!items!zq7gAeAvZbt8kwdU' @ 0 : 0; will stop at '!items!zQaWoOkbpsadKT2q' @ 1361 : 1
-2024/05/24-11:21:27.654 1b3c Compacting 2@0 + 0@1 files
-2024/05/24-11:21:27.658 1b3c Generated table #125@0: 158 keys, 80185 bytes
-2024/05/24-11:21:27.658 1b3c Compacted 2@0 + 0@1 files => 80185 bytes
-2024/05/24-11:21:27.659 1b3c compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/05/24-11:21:27.660 1b3c Delete type=2 #121
-2024/05/24-11:21:27.660 1b3c Delete type=2 #124
-2024/05/24-11:21:27.660 1b3c Manual compaction at level-0 from '!items!zQaWoOkbpsadKT2q' @ 1361 : 1 .. '!items!zq7gAeAvZbt8kwdU' @ 0 : 0; will stop at (end)
-2024/05/24-11:21:27.660 1b3c Manual compaction at level-1 from '!folders!9z8F4GiWlXBk1DYI' @ 72057594037927935 : 1 .. '!items!zq7gAeAvZbt8kwdU' @ 0 : 0; will stop at '!items!zQaWoOkbpsadKT2q' @ 1361 : 1
-2024/05/24-11:21:27.660 1b3c Compacting 1@1 + 1@2 files
-2024/05/24-11:21:27.666 1b3c Generated table #126@1: 457 keys, 254151 bytes
-2024/05/24-11:21:27.666 1b3c Compacted 1@1 + 1@2 files => 254151 bytes
-2024/05/24-11:21:27.667 1b3c compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/05/24-11:21:27.667 1b3c Delete type=2 #91
-2024/05/24-11:21:27.667 1b3c Delete type=2 #125
-2024/05/24-11:21:27.671 1b3c Manual compaction at level-1 from '!items!zQaWoOkbpsadKT2q' @ 1361 : 1 .. '!items!zq7gAeAvZbt8kwdU' @ 0 : 0; will stop at (end)
+2024/05/30-04:02:01.211 4048 Recovering log #181
+2024/05/30-04:02:01.214 4048 Delete type=0 #181
+2024/05/30-04:02:01.214 4048 Delete type=3 #179
+2024/05/30-04:02:17.335 4970 Level-0 table #186: started
+2024/05/30-04:02:17.335 4970 Level-0 table #186: 0 bytes OK
+2024/05/30-04:02:17.336 4970 Delete type=0 #184
+2024/05/30-04:02:17.336 4970 Manual compaction at level-0 from '!folders!9z8F4GiWlXBk1DYI' @ 72057594037927935 : 1 .. '!items!zq7gAeAvZbt8kwdU' @ 0 : 0; will stop at (end)
+2024/05/30-04:02:17.336 4970 Manual compaction at level-1 from '!folders!9z8F4GiWlXBk1DYI' @ 72057594037927935 : 1 .. '!items!zq7gAeAvZbt8kwdU' @ 0 : 0; will stop at (end)
