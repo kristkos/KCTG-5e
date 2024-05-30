@@ -17,7 +17,7 @@ export class Notes extends Application {
     activateListeners(html) {
         super.activateListeners(html);
         $('.clear', html).bind("click", () => {
-            game.settings.set("kctg-5e", "notes", false);
+            game.settings.set("kctg-5e", "show-warning", false);
             this.close();
         });
         $('.just-close', html).bind("click", () => {
