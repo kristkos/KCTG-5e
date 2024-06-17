@@ -1,3 +1,15 @@
-2024/05/30-06:12:55.625 45f0 Recovering log #185
-2024/05/30-06:12:55.628 45f0 Delete type=0 #185
-2024/05/30-06:12:55.628 45f0 Delete type=3 #183
+2024/06/16-14:38:28.900 46c0 Recovering log #195
+2024/06/16-14:38:28.903 46c0 Delete type=0 #195
+2024/06/16-14:38:28.904 46c0 Delete type=3 #193
+2024/06/16-17:51:07.956 4bac Level-0 table #200: started
+2024/06/16-17:51:07.965 4bac Level-0 table #200: 75274 bytes OK
+2024/06/16-17:51:07.966 4bac Delete type=0 #198
+2024/06/16-17:51:07.966 4bac Manual compaction at level-0 from '!folders!9z8F4GiWlXBk1DYI' @ 72057594037927935 : 1 .. '!items!zq7gAeAvZbt8kwdU' @ 0 : 0; will stop at (end)
+2024/06/16-17:51:07.966 4bac Manual compaction at level-1 from '!folders!9z8F4GiWlXBk1DYI' @ 72057594037927935 : 1 .. '!items!zq7gAeAvZbt8kwdU' @ 0 : 0; will stop at '!items!zSm8sSZ1JpZUo4yG' @ 1923 : 0
+2024/06/16-17:51:07.966 4bac Compacting 1@1 + 1@2 files
+2024/06/16-17:51:07.973 4bac Generated table #201@1: 525 keys, 306422 bytes
+2024/06/16-17:51:07.973 4bac Compacted 1@1 + 1@2 files => 306422 bytes
+2024/06/16-17:51:07.978 4bac compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/06/16-17:51:07.978 4bac Delete type=2 #146
+2024/06/16-17:51:07.978 4bac Delete type=2 #200
+2024/06/16-17:51:07.989 4bac Manual compaction at level-1 from '!items!zSm8sSZ1JpZUo4yG' @ 1923 : 0 .. '!items!zq7gAeAvZbt8kwdU' @ 0 : 0; will stop at (end)
