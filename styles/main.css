@@ -1,0 +1,65 @@
+.app.window-app.kctg {
+    font-family: 'Cinzel', serif;
+}
+
+.app.window-app.kctg section {
+    background: none;
+}
+
+.kctg-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 3px solid #4a7023;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.kctg-container p, .kctg-container table, .kctg-container a, .kctg-container footer {
+    font-family: 'Cinzel', serif;
+    color: #ffffff;
+}
+
+.kctg-container a {
+    color: #7bc037;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.kctg-container table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-shadow: 2px 2px #000000;
+}
+
+.kctg-container th, .kctg-container td {
+    border: 2px solid #4a7023;
+    padding: 10px;
+}
+
+.kctg-container th {
+    background-color: #8b4513;
+}
+
+.kctg-container td {
+    background-color: #4b2e1e;
+}
+
+.kctg-container footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.kctg-container button {
+    background-color: #8b4513;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Cinzel', serif;
+    color: #ffffff;
+}
+
+.kctg-container button:hover {
+    background-color: #4a7023;
+}
