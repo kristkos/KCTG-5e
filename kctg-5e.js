@@ -1,12 +1,13 @@
-import { Notes } from "./apps/notes.js";
+import {Notes} from "./apps/notes.js";
+
+export const MODULE_ID = 'kctg-5e';
 
 // Register the 'show-warning' setting
 Hooks.once('init', () => {
-    game.settings.register('kctg-5e', 'show-warning', {
-        name: 'Thank you!',
-        hint: 'Thank you for downloading',
+    game.settings.register(MODULE_ID, 'show-warning', {
+        name: 'Show "Thank you" note on startup',
         scope: 'world',
-        config: false,
+        config: true,
         default: true,
         type: Boolean
     });
@@ -14,7 +15,7 @@ Hooks.once('init', () => {
 
 // Define the 'setting' function
 function setting(key) {
-    return game.settings.get('kctg-5e', key);
+    return game.settings.get(MODULE_ID, key);
 }
 
 // Ensure the 'setting' function is defined and available in scope
@@ -24,17 +25,3 @@ Hooks.once('ready', () => {
     }
 });
 
-Hooks.on("renderSettingsConfig", (app, html, data) => {
-    // Create the paragraph element and add class and content
-    const warningParagraph = $('<p>')
-        .addClass('mld-warning')
-        .append('<i class="fas fa-circle-question"></i> Thank you for downloading!')
-        .append(
-            $('<a>')
-                .html("Click here")
-                .on("click", () => { new Notes().render(true); })
-        );
-
-    // Insert the paragraph before the specified element
-    warningParagraph.insertBefore($('[name="kctg-5e.show-warning"]').parents('div.form-group:first'));
-});

@@ -11,6 +11,9 @@
   "esmodules": [
     "kctg-5e.js"
   ],
+  "styles": [
+    "styles/main.css"
+  ],
   "authors": [
     {
       "name": "kristkos",
