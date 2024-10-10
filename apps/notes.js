@@ -9,7 +9,7 @@ export class Notes extends Application {
         return foundry.utils.mergeObject(super.defaultOptions, {
             id: "notes",
             title: "Thank you for downloading",
-            template: "modules/kctg-a5e/templates/notes.html",
+            template: "modules/kctg-5e/templates/notes.html",
             width: 700,
             height: 500,
             classes:[ "kctg"]
