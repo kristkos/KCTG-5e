@@ -1,8 +1,6 @@
-2024/10/18-20:41:11.513 2a84 Recovering log #249
-2024/10/18-20:41:11.516 2a84 Delete type=0 #249
-2024/10/18-20:41:11.517 2a84 Delete type=3 #247
-2024/10/18-21:01:51.489 21d8 Level-0 table #254: started
-2024/10/18-21:01:51.489 21d8 Level-0 table #254: 0 bytes OK
-2024/10/18-21:01:51.490 21d8 Delete type=0 #252
-2024/10/18-21:01:51.495 21d8 Manual compaction at level-0 from '!folders!9z8F4GiWlXBk1DYI' @ 72057594037927935 : 1 .. '!items!zz7Z50tHQqf9Z2jD' @ 0 : 0; will stop at (end)
-2024/10/18-21:01:51.495 21d8 Manual compaction at level-1 from '!folders!9z8F4GiWlXBk1DYI' @ 72057594037927935 : 1 .. '!items!zz7Z50tHQqf9Z2jD' @ 0 : 0; will stop at (end)
+2024/11/18-03:06:54.880 1e64 Recovering log #256
+2024/11/18-03:06:54.880 1e64 Level-0 table #258: started
+2024/11/18-03:06:54.974 1e64 Level-0 table #258: 30586 bytes OK
+2024/11/18-03:06:55.173 1e64 Delete type=0 #256
+2024/11/18-03:06:55.174 1e64 Delete type=3 #255
+2024/11/18-06:55:31.601 3f48 Moved #258 to level-1 30586 bytes OK: files[ 0 1 1 0 0 0 0 ]
