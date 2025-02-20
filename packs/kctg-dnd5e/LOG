@@ -1,23 +1,5 @@
-2025/02/06-12:43:54.841 26d8 Recovering log #289
-2025/02/06-12:43:54.841 26d8 Level-0 table #291: started
-2025/02/06-12:43:54.873 26d8 Level-0 table #291: 33197 bytes OK
-2025/02/06-12:43:54.926 26d8 Delete type=0 #289
-2025/02/06-12:43:54.926 26d8 Delete type=3 #288
-2025/02/06-12:48:33.145 5118 Level-0 table #294: started
-2025/02/06-12:48:33.145 5118 Level-0 table #294: 0 bytes OK
-2025/02/06-12:48:33.167 5118 Delete type=0 #292
-2025/02/06-12:48:33.167 5118 Manual compaction at level-0 from '!folders!9z8F4GiWlXBk1DYI' @ 72057594037927935 : 1 .. '!items!zz7Z50tHQqf9Z2jD' @ 0 : 0; will stop at '!items!zH2sKExG5RIi9FsG' @ 2605 : 1
-2025/02/06-12:48:33.167 5118 Compacting 1@0 + 0@1 files
-2025/02/06-12:48:33.205 5118 Generated table #295@0: 40 keys, 23701 bytes
-2025/02/06-12:48:33.207 5118 Compacted 1@0 + 0@1 files => 23701 bytes
-2025/02/06-12:48:33.255 5118 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/02/06-12:48:33.255 5118 Delete type=2 #291
-2025/02/06-12:48:33.255 5118 Manual compaction at level-0 from '!items!zH2sKExG5RIi9FsG' @ 2605 : 1 .. '!items!zz7Z50tHQqf9Z2jD' @ 0 : 0; will stop at (end)
-2025/02/06-12:48:33.255 5118 Manual compaction at level-1 from '!folders!9z8F4GiWlXBk1DYI' @ 72057594037927935 : 1 .. '!items!zz7Z50tHQqf9Z2jD' @ 0 : 0; will stop at '!items!zH2sKExG5RIi9FsG' @ 2605 : 1
-2025/02/06-12:48:33.255 5118 Compacting 1@1 + 1@2 files
-2025/02/06-12:48:33.293 5118 Generated table #296@1: 674 keys, 409970 bytes
-2025/02/06-12:48:33.293 5118 Compacted 1@1 + 1@2 files => 409970 bytes
-2025/02/06-12:48:33.311 5118 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/02/06-12:48:33.311 5118 Delete type=2 #279
-2025/02/06-12:48:33.311 5118 Delete type=2 #295
-2025/02/06-12:48:33.311 5118 Manual compaction at level-1 from '!items!zH2sKExG5RIi9FsG' @ 2605 : 1 .. '!items!zz7Z50tHQqf9Z2jD' @ 0 : 0; will stop at (end)
+2025/02/20-06:09:12.281 3fb8 Recovering log #298
+2025/02/20-06:09:12.281 3fb8 Level-0 table #300: started
+2025/02/20-06:09:12.319 3fb8 Level-0 table #300: 1611 bytes OK
+2025/02/20-06:09:12.410 3fb8 Delete type=0 #298
+2025/02/20-06:09:12.411 3fb8 Delete type=3 #297
