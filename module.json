@@ -43,7 +43,7 @@
       "flags": {}
     }
   ],
-  "download": "https://github.com/kristkos/KCTG-5e/releases/download/1.12.1/kctg-5e.zip",
+  "download": "https://github.com/kristkos/KCTG-5e/releases/download/1.13.0/kctg-5e.zip",
   "manifest": "https://raw.githubusercontent.com/kristkos/KCTG-5e/main/module.json",
   "flags": {
     "hotReload": false,
