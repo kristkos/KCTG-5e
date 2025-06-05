@@ -7,59 +7,91 @@
 }
 
 .kctg-container {
-    background-color: rgba(0, 0, 0, 0.8);
-    border: 3px solid #4a7023;
-    padding: 20px;
-    border-radius: 10px;
+    background: linear-gradient(145deg, #111111, #161616);
+    border: 2px solid #D3AF37;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow:
+        inset 3px 3px 4px rgba(255, 255, 255, 0.1),
+        inset -3px -3px 4px rgba(0, 0, 0, 0.7),
+        4px 4px 6px rgba(0, 0, 0, 0.8);
+}
+.kctg-container .kctg-small {
+    font-size: 12px;
 }
 
-.kctg-container p, .kctg-container table, .kctg-container a, .kctg-container footer {
+.kctg-logo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto 20px;
+    border: 0 solid #D3AF37;
+    border-radius: 3px;
+}
+
+.kctg-container p,
+.kctg-container table,
+.kctg-container a,
+.kctg-container footer {
     font-family: 'Cinzel', serif;
     color: #ffffff;
+    text-shadow: 1px 1px #000;
+    margin-bottom: 12px;
 }
 
 .kctg-container a {
-    color: #7bc037;
-    background-color: transparent;
+    color: #D3AF37;
     text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.kctg-container a:hover {
+    color: #dcc061;
 }
 
 .kctg-container table {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 12px;
     border-collapse: collapse;
-    text-shadow: 2px 2px #000000;
+    font-size: 12px;
 }
 
-.kctg-container th, .kctg-container td {
-    border: 2px solid #4a7023;
-    padding: 10px;
+.kctg-container th,
+.kctg-container td {
+    border: 1px solid #D3AF37;
+    padding: 6px 8px;
+    text-align: left;
 }
 
 .kctg-container th {
-    background-color: #8b4513;
+    background-color: #646464;
+    font-weight: 600;
 }
 
 .kctg-container td {
-    background-color: #4b2e1e;
+    background-color: #3b3b3b;
 }
 
 .kctg-container footer {
     display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 16px;
 }
 
 .kctg-container button {
-    background-color: #8b4513;
+    background-color: #424242;
     border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
+    padding: 6px 14px;
+    border-radius: 4px;
     font-family: 'Cinzel', serif;
     color: #ffffff;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
 }
 
 .kctg-container button:hover {
-    background-color: #4a7023;
+    background-color: #9b7f22;
 }

@@ -8,10 +8,10 @@ export class Notes extends Application {
     static get defaultOptions() {
         return foundry.utils.mergeObject(super.defaultOptions, {
             id: "notes",
-            title: "Thank you for downloading",
+            title: "Thank you for downloading `Kris' Compendium of Trade Goods`",
             template: "modules/kctg-5e/templates/notes.html",
-            width: 750,
-            height: 600,
+            width: 710,
+            height: 740,
             classes:[ "kctg"]
         });
     }
