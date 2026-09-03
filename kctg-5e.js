@@ -1,8 +1,4 @@
-import {Notes} from "./apps/notes.js";
-
 export const MODULE_ID = 'kctg-5e';
-
-// Register the 'show-warning' setting
 Hooks.once('init', () => {
     game.settings.register(MODULE_ID, 'show-warning', {
         name: 'Show "Thank you" note on startup',
@@ -11,17 +7,33 @@ Hooks.once('init', () => {
         default: true,
         type: Boolean
     });
-});
 
-// Define the 'setting' function
+    game.modules.get(MODULE_ID).api = { showWelcome: postWelcome };
+});
 function setting(key) {
     return game.settings.get(MODULE_ID, key);
 }
-
-// Ensure the 'setting' function is defined and available in scope
-Hooks.once('ready', () => {
-    if (setting("show-warning") && game.user?.isGM) {
-        new Notes().render(true);
+async function postWelcome() {
+    const content = await foundry.applications.handlebars.renderTemplate(`modules/${MODULE_ID}/templates/notes.html`);
+    return ChatMessage.create({
+        user: game.user.id,
+        speaker: ChatMessage.getSpeaker(),
+        content,
+        whisper: [game.user.id]
+    });
+}
+Hooks.once('ready', async () => {
+    if (!game.user?.isGM || !setting("show-warning")) return;
+    await game.settings.set(MODULE_ID, "show-warning", false);
+    await postWelcome();
+});
+Hooks.on("renderChatMessageHTML", (message, html) => {
+    for (const el of html.querySelectorAll(`[data-kctg-handler^="${MODULE_ID}|"]`)) {
+        el.addEventListener("click", onKctgClick);
     }
 });
-
+function onKctgClick(event) {
+    event.preventDefault();
+    const [, action, ...args] = event.currentTarget.dataset.kctgHandler.split("|");
+    if (action === "openWindow") window.open(args.join("|"), "_blank", "noopener");
+}
